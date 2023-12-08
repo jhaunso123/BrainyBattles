@@ -11,9 +11,10 @@ When you run the code you will me met with a welcome page, which allows you to l
 HOW TO RUN
 Implementation may vary depending on your preffered python app. Here is how to install into pycharm:
 
-1. Download the folder on the github.
-2. Create a new python project in pycharm.
-3. Drag and drop the downloaded file from your downloads into your python project folder.
+1. Download the zip from github.
+2. Unzip
+3. Create a new python project in pycharm.
+4. Drag and drop the downloaded file from your downloads into your python project folder.
 
 Now you will have the foldr in your python project folder. Next you will need to install necessary packages into your pycharm. This can be done by running the code below in your terminal:
 
