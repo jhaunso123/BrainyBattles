@@ -42,4 +42,6 @@ Once you are in the login page you must register an account, do so by entering a
 
 Packages:
 pip install Flask Flask-SQLAlchemy Flask-Login Flask-WTF Flask-Bcrypt pandas Flask-Migrate
+
+
 Since the creation of this website is for educational purposes, we did not use a huge dataset. In any case, we recommend changing the search algorithms in the code to suit the dataset that you want (if you want to change the current one).
