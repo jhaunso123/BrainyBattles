@@ -8,12 +8,33 @@ This project has been created to teach kids educational material from a young ag
 What exactly does the code do?
 When you run the code you will me met with a welcome page, which allows you to login and register. After logging in or registering, you will choose your year, level and prefered subject. This will effect the types of questions you will be asked. Now you will be prompted to answer questions one at a time. Based on your answer you will be told if you are correct or incorrect.
 
-HOW TO USE 
-Implementation may vary depending on your preffered python app. In the case of pycharm (and probably others) you must simply upload the main folder into a new project. When this is done you must run the file "projet fr +.py". You may be prompted that the code cannot run, this is likely because you have not installed the nessecary packages. In this situation copy and past the line below into your terminal to download the packages. Once the packages have been installed you will see that the code is running on a website that you can acsess by clicking the link that will be shown in the console. Once you click on the link you will be on the website and can explore the project.
+HOW TO RUN
+Implementation may vary depending on your preffered python app. Here is how to install into pycharm:
+
+1. Download the folder on the github.
+2. Create a new python project in pycharm.
+3. Drag and drop the downloaded file from your downloads into your python project folder.
+
+Now you will have the foldr in your python project folder. Next you will need to install necessary packages into your pycharm. This can be done by running the code below in your terminal:
+
+pip install Alembic bcrypt blinker click et-xmlfile Flask Flask-Bcrypt Flask-Login Flask-Migrate Flask-SQLAlchemy Flask-WTF itsdangerous  Jinja2 Mako MarkupSafe numpy openpyxl pandas pip python-dateutil pytz setuptools six SQLAlchemy  typing_extensions tzdata Werkzeug wheel WTForms
+
+Once you have these packages installed find the file "algorithms questions.xlsx" in the downloaded folder, within your python project. Right click on the file and copy its absolute file path. You will then search for the phrase filepath in the code file "project fr + edited". This can be done by clicking on the file and clicking on the code and using the search tool (command F). Once you find the line containing the filepath, replace the current filepath with the one you copied earlier. 
+
+Run the code.
+
+After running you will be prompted in the running window saying : "WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8000"
+
+Click the link where it says "running on", you will be directed to a login page.
 
 
-Note:
-There have been some issues with running the code on different OS. In some cases code written by people on Windows does not run on Mac. We are doing our best to fix this issue but it has proved quite challenging. By the submission date this will be fixed. 
+HOW TO USE
+Once you are in the login page you must register an account, do so by entering a username and password. Once you do this you can enter the site and will be prompted to enter your year and what difficulty you would like the questions to have. Now have fun learning
+
+
+
+
 
 
 Packages:
