@@ -4,8 +4,7 @@ Algorithms Project IEU 2023
 
 **A Breif Overview:**
 
-This project has been created to aid middle school children study, especially if they have a short attention span. We created a website that quizzes children in a fun way by including gamification elements. This has all been programmed by our fantastic group, for our Algorithms and Data Structures course at IE University taught by Antonio Lopez Rosell. This is our first time creating a project in python at this scale, so dont scrutinize us too hard. :)
-
+This project has been created to aid middle school children study, especially if they have a short attention span. We created a website that quizzes children in a fun way by including gamification elements. This has all been programmed by our fantastic group, for our Algorithms and Data Structures course at IE University taught by Antonio Lopez Rosell. 
 
 **What exactly does the code do?**
 
