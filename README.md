@@ -1,14 +1,18 @@
 # BrainyBattles
+
 Algorithms Project IEU 2023
 
 **A Breif Overview:**
+
 This project has been created to aid middle school children study, especially if they have a short attention span. We created a website that quizzes children in a fun way by including gamification elements. This has all been programmed by our fantastic group, for our Algorithms and Data Structures course at IE University taught by Antonio Lopez Rosell. This is our first time creating a project in python at this scale, so dont scrutinize us too hard. :)
 
 
 **What exactly does the code do?**
+
 When you run the code you will be met with a welcome page, which allows you to login and register. After logging in or registering, you will choose your year, level and preferred subject. You will be quizzed on questions based on this selection. The questions are open answered and they will be shown one at a time. If your answer to the question is wrong, you will be told so and you will lose a life. You have a total of 3 lives in general. If you get the answer correct you will be told so and you'll continue with the number of lives that you have.
 
 **HOW TO RUN**
+
 Implementation may vary depending on your preffered python app. Here is how to run it in PyCharm:
 
 1. Download the zip from github.
@@ -31,9 +35,11 @@ Click the link where it says "running on", you will be directed to a login page.
 
 
 **HOW TO USE**
+
 Once you are in the login page you must register an account, do so by entering a username and password. Once you do this you can enter the site and will be prompted to enter your year and what difficulty you would like the questions to have. Now have fun learning!!
 
 **NOTES**
+
 Packages:
 pip install Flask Flask-SQLAlchemy Flask-Login Flask-WTF Flask-Bcrypt pandas Flask-Migrate
 Since the creation of this website is for educational purposes, we did not use a huge dataset. In any case, we recommend changing the search algorithms in the code to suit the dataset that you want (if you want to change the current one).
